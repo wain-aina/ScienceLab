@@ -125,8 +125,7 @@ h1 {
         margin-bottom: 4%;
     }
     .navbar-toggler {
-        margin-botton: 1rem;
-        padding-left: 5%;
+        margin: 0 auto 1rem;
     } 
     .card-img {
         padding-top: 3%;
