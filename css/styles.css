@@ -19,7 +19,7 @@ h1 {
 }
 
 .location {
-    background-image: url("/images/logos&backgrounds/velvetBlack.png");
+    background-image: url("../images/logos&backgrounds/velvetBlack.png");
 }
 
 .colored {
@@ -33,7 +33,7 @@ h1 {
 
 .navbar {
     padding: 3rem 0;
-    background-image: url("/images/logos&backgrounds/backofintro.png");
+    background-image: url("../images/logos&backgrounds/backofintro.png");
 }
 
 .navbar-brand, nav .navbar-nav li a{
