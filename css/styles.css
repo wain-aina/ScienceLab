@@ -1,0 +1,140 @@
+@import url(//fonts.googleapis.com/css?family=Times+New+Roman);
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Oleo Script Swash Caps";
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+#whereabouts {
+    padding: 10% 15%;
+}
+
+.location {
+    background-image: url("/images/logos&backgrounds/velvetBlack.png");
+}
+
+.colored {
+    background-color: #1c1c1c;
+}
+
+.sample {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 3rem 0;
+    background-image: url("/images/logos&backgrounds/backofintro.png");
+}
+
+.navbar-brand, nav .navbar-nav li a{
+    color: #fffff0 !important;
+}
+
+.item1, .item2, .item3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 30px;
+    color: #000;
+    position: relative;
+}
+
+.item2:after,
+.item3:after{
+    content: '';
+    position: absolute;
+    width: 80%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.item3:hover:after,
+.item2:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.col {
+    padding: 3% 6.5%;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.esteem {
+    font-family: "Times New Roman";
+
+}
+
+.carousel, .carousel-indicators {
+    padding-bottom: 2%;
+}
+
+.card {
+    padding: 4% 4%;
+}
+
+.card-text, .card-title {
+    font-weight: bold;
+}
+
+.card-content {
+    padding-bottom: 3%;
+}
+
+.card-btn {
+    margin-top: 5%;
+}
+
+.card-img {
+    padding-top: 10%;
+}
+
+@media only screen and (min-width: 481px) {
+    .navbar-brand {
+        margin-left: 3rem;
+        margin-bottom: 0.5rem;
+    }
+    .navbar-toggler {
+        margin-left: 11.5rem;
+        margin-bottom: 1rem;
+    }
+    .card-img {
+        padding-top: 3%;
+    }
+    .products {
+        font-size: 1.5rem;
+    }
+    .con {
+        font-size: 1rem;
+    }
+}
