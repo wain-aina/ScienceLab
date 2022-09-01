@@ -120,13 +120,15 @@ h1 {
     padding-top: 10%;
 }
 
-@media only screen and (min-width: 481px) {
-     .navbar-brand 
-        margin-bottom: 4%;
+@media only screen and (max-width: 481px) {
+    .navbar-brand {
+        text-align: center;
+        padding: 0 10%;
+        margin: 0 0 20px 0;
     }
     .navbar-toggler {
-        right: 20%;
-    } 
+        padding-left: 48%;
+    }
     .card-img {
         padding-top: 3%;
     }
@@ -136,6 +138,7 @@ h1 {
     .con {
         font-size: 1rem;
     }
+
 }
 
 @media only screen and (min-width: 768px) {
