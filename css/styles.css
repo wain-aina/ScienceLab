@@ -127,7 +127,7 @@ h1 {
         margin-bottom: 4%;
     }
     .navbar-toggler {
-        margin: 0 auto 1rem;
+        padding-left: 30%;
     } 
     .card-img {
         padding-top: 3%;
@@ -139,6 +139,6 @@ h1 {
         font-size: 1rem;
     }
     .orama {
-    padding-right: 10%;
+    padding-right: 25%;
     }
 }
