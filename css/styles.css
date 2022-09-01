@@ -14,9 +14,7 @@ h1 {
     padding: 7% 15%;
 }
 
-.orama {
-    padding-left: 10%;
-}
+
 
 #whereabouts {
     padding: 10% 15%;
@@ -140,4 +138,7 @@ h1 {
     .con {
         font-size: 1rem;
     }
+    .orama {
+    padding-left: 10%;
+}
 }
