@@ -123,7 +123,7 @@ h1 {
 
 @media only screen and (min-width: 481px) {
      .navbar-brand {
-        margin-left: 12%;
+        margin-left: 3%;
         margin-bottom: 4%;
     }
     .navbar-toggler {
@@ -137,8 +137,5 @@ h1 {
     }
     .con {
         font-size: 1rem;
-    }
-    .orama {
-    padding-right: 25%;
     }
 }
