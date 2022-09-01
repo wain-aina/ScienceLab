@@ -124,7 +124,7 @@ h1 {
     .navbar-brand {
         text-align: center;
         padding: 0 15% 0 0;
-        margin: 0 0 30px 0;
+        margin: 0 0 30px 15%;
     }
     .navbar-toggler {
         margin-left: 40%;
